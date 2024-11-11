@@ -1,0 +1,27 @@
+{
+    "name": "nimp/currency-exchange",
+    "description": "This package gives you the opportunity to work with exchange rates",
+    "type": "project",
+    "require": {
+        "php": ">=8.2",
+        "yiisoft/yii2": ">=2.0.45"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Nimp\\CurrencyExchange\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Egor Konopka",
+            "email": "egorkonopka93@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "config": {
+        "allow-plugins": {
+            "yiisoft/yii2-composer": true
+        }
+    }
+}
