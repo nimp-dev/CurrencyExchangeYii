@@ -2,7 +2,9 @@
 
 namespace Nimp\CurrencyExchange\exceptions;
 
-class BankDataNotFoundException
+use Exception;
+
+class BankDataNotFoundException extends Exception
 {
 
 }

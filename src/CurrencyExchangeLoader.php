@@ -3,7 +3,7 @@
 namespace Nimp\CurrencyExchange;
 
 use DateTime;
-use Nimp\CurrencyExchange\CurrencyExchangeVO;
+use Nimp\CurrencyExchange\models\CurrencyExchangeVO;
 use Nimp\CurrencyExchange\exceptions\CurrencyExchangeException;
 use Nimp\CurrencyExchange\interfaces\IStorage;
 use yii\base\Component;

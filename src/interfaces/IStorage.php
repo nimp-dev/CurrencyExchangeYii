@@ -2,7 +2,7 @@
 
 namespace Nimp\CurrencyExchange\interfaces;
 
-use Nimp\CurrencyExchange\CurrencyExchangeVO;
+use Nimp\CurrencyExchange\models\CurrencyExchangeVO;
 use Nimp\CurrencyExchange\exceptions\CurrencyExchangeException;
 use DateTime;
 

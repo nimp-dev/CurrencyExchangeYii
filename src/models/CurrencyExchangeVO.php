@@ -1,6 +1,6 @@
 <?php
 
-namespace Nimp\CurrencyExchange;
+namespace Nimp\CurrencyExchange\models;
 
 use JetBrains\PhpStorm\Pure;
 
