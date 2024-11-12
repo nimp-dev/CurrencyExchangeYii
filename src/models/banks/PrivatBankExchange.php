@@ -1,6 +1,6 @@
 <?php
 
-namespace Nimp\CurrencyExchange\banks;
+namespace Nimp\CurrencyExchange\models\banks;
 
 use DateTime;
 use Nimp\CurrencyExchange\abstracts\AbstractBankExchange;

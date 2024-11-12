@@ -4,8 +4,9 @@ namespace Nimp\CurrencyExchange\models;
 
 use DateTime;
 use Nimp\CurrencyExchange\exceptions\CurrencyExchangeException;
+use Nimp\CurrencyExchange\interfaces\IStorage;
 
-class CurrencyExchangeAR implements \Nimp\CurrencyExchange\interfaces\IStorage
+class CurrencyExchangeAR implements IStorage
 {
     /**
      * @inheritDoc
