@@ -4,6 +4,20 @@ namespace Nimp\CurrencyExchange\models;
 
 use JetBrains\PhpStorm\Pure;
 
+/**
+ * @property string $dateTime;
+ * @property int $idExchanger;
+ * @property float $UAH;
+ * @property float $EUR;
+ * @property float $USD;
+ * @property float $RUB;
+ * @property float $BYN;
+ * @property float $CAD;
+ * @property float $CHF;
+ * @property float $CZK;
+ * @property float $ILS;
+ * @property float $KZT;
+ */
 class CurrencyExchangeVO
 {
     public string $dateTime;

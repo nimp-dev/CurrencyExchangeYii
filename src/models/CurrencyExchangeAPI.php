@@ -51,7 +51,7 @@ class CurrencyExchangeAPI implements IStorage
     public function getCoursesByDate(DateTime $dateTime): CurrencyExchangeVO
     {
         $dataBunk = $this->loadCoursesFromBanks($dateTime);
-        $idExchanger = 1;
+        $idExchanger = CurrencyExchangeAR::getLastExchangerId() + 1;
         $dateTime = $dateTime->format('Y-m-d H:00:00');
         return new CurrencyExchangeVO($idExchanger, $dateTime, $dataBunk);
     }
@@ -63,7 +63,7 @@ class CurrencyExchangeAPI implements IStorage
     {
         $dateTime = new DateTime('now');
         $dataBunk = $this->loadCoursesFromBanks($dateTime);
-        $idExchanger = 1;
+        $idExchanger = CurrencyExchangeAR::getLastExchangerId() + 1;
         $dateTime = $dateTime->format('Y-m-d H:00:00');
         return new CurrencyExchangeVO($idExchanger, $dateTime, $dataBunk);
     }
